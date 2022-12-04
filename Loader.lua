@@ -27,7 +27,7 @@ else
     _G.AgonyLoaded = true 
 end
 
-if game.PlaceId ~= 2788229376 then
+if game.PlaceId ~= 5769070963 then
     messagebox("You are not in the correct game, please ensure you are in 'Da Hood'.", "Agony", 0)
     error("You are not in the correct game, please ensure you are in 'Da Hood'.")
     return
@@ -37,7 +37,7 @@ setfpscap(5)
 game:GetService("RunService"):Set3dRenderingEnabled(false)
 
 print("Loading Commands...")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/diz-zzyy/AgonyDropper/main/Commands.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuxeCommands/AgonyDropper/main/Commands.lua"))()
 print("Commands Loaded!")
 
 local VirtualUser = game:GetService("VirtualUser")
@@ -79,7 +79,7 @@ print("Command Handler ready.")
 
 print("Loading Libraries...")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PickleIsDaBest/Min/main/Skript"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/diz-zzyy/AgonyDropper/main/scripts/DeleteChairs.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuxeCommands/AgonyDropper/main/scripts/DeleteChairs.lua"))()
 print("Libraries loaded.")
 print("Agony loaded!")
 
