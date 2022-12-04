@@ -12,4 +12,4 @@ _G.AgonyDropper = {
 }
 
 -- Loader : Loads the script.
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LuxeCommands/AgonyDropper/main/Loader.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PickleIsDaBest/AgonyDropper/main/Loader.lua"))()
