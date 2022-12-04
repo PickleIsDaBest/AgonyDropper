@@ -24,9 +24,7 @@ if game.PlaceId ~= 5769070963 then
     return
 end
 
-print("Loading Commands...")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PickleIsDaBest/AgonyDropper/main/Commands.lua"))()
-print("Commands Loaded!")
 
 local VirtualUser = game:GetService("VirtualUser")
 game:GetService("Players").LocalPlayer.Idled:connect(function()
@@ -37,7 +35,6 @@ end)
 
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer.Character ~= nil
 
-print("Loading Command Handler...")
 
 function Command(player, msg)
      cmd = string.split(msg," ")
@@ -63,16 +60,5 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.OnMessageDoneFi
     end
 end)
 
-print("Command Handler ready.")
-
-print("Loading Libraries...")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PickleIsDaBest/Min/main/Skript"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PickleIsDaBest/AgonyDropper/main/scripts/DeleteChairs.lua"))()
-print("Libraries loaded.")
-print("Agony loaded!")
-
-game.StarterGui:SetCore("SendNotification", {
-        Title = "Agony";
-        Text = "Agony has loaded!";
-        Duration = 10;
-    })
