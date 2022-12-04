@@ -13,4 +13,4 @@ _G.AgonyDropper = {
 }
 
 -- Loader : Loads the script.
-loadstring(game:HttpGet("https://raw.githubusercontent.com/diz-zzyy/AgonyDropper/main/Loader.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuxeCommands/AgonyDropper/main/Loader.lua"))()
