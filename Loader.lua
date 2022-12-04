@@ -18,15 +18,6 @@ if(whitelisted == false) then
     return
 end
 
-if(_G.AgonyLoaded == true) then
-    messagebox("Make sure you only execute Agony once.", "Agony", 0)
-    error("Make sure you only execute Agony once.")
-    return
-else
-    print("Agony loading...")
-    _G.AgonyLoaded = true 
-end
-
 if game.PlaceId ~= 5769070963 then
     messagebox("You are not in the correct game, please ensure you are in 'Da Hood'.", "Agony", 0)
     error("You are not in the correct game, please ensure you are in 'Da Hood'.")
