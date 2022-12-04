@@ -24,11 +24,8 @@ if game.PlaceId ~= 5769070963 then
     return
 end
 
-setfpscap(5)
-game:GetService("RunService"):Set3dRenderingEnabled(false)
-
 print("Loading Commands...")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LuxeCommands/AgonyDropper/main/Commands.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PickleIsDaBest/AgonyDropper/main/Commands.lua"))()
 print("Commands Loaded!")
 
 local VirtualUser = game:GetService("VirtualUser")
@@ -70,7 +67,7 @@ print("Command Handler ready.")
 
 print("Loading Libraries...")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PickleIsDaBest/Min/main/Skript"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LuxeCommands/AgonyDropper/main/scripts/DeleteChairs.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PickleIsDaBest/AgonyDropper/main/scripts/DeleteChairs.lua"))()
 print("Libraries loaded.")
 print("Agony loaded!")
 
